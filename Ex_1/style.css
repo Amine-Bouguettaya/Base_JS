@@ -1,0 +1,9 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(136, 174, 136);
+    color : white;
+    display:  flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}

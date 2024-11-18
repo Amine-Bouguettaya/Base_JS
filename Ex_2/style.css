@@ -1,0 +1,40 @@
+#board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(136, 174, 136);
+    margin: 1em;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(41, 99, 175);
+    margin: 1em;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 52, 52);
+    margin: 1em;
+}
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(175, 177, 61);
+    margin: 1em;
+}
+
+#clicked-box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 150px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 1em;
+    border: 1px solid black;
+}
