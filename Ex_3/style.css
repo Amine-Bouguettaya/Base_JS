@@ -1,5 +1,40 @@
 #board {
-    width: 400px;
-    height: 400px;
-    x
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(136, 174, 136);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    margin: 0.5em;
+    scale: 100%;
+}
+
+.box-clicked {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(161, 60, 60);
+    color: white;
+    margin: 0.5em;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 200px;
+    animation: rotation2 1s;
+    scale: 90%;
+}
+
+@keyframes rotation2 {
+    from {
+        transform: scale(0) rotate(0deg);
+    }
+    to {
+        transform: scale(90%) rotate(360deg);
+    }
 }

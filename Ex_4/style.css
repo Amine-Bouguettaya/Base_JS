@@ -1,0 +1,32 @@
+#body {
+    background-color: gray;
+}
+#board {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+p {
+    text-align: center;
+    color: white;
+}
+ColorFacebook {
+    background-color: #576ea5;
+}
+colorTwitter {
+    background-color: #00b2ef;
+}
+colorInstagram {
+    background-color: #f00073;
+}
+.box {
+    margin: 0.5em;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px rgb(72, 71, 71);
+}
