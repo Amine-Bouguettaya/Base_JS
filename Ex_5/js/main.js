@@ -4,15 +4,16 @@ for (const author in quotes) {
     box.classList.add("box");
     const img = document.createElement("img");
     img.src = "assets/star_empty.png";
+    const textLocal = `${author}: "${quotes[author]}"`;
     img.addEventListener("click", function() {
         const isActive = img.classList.contains("active");
         if (isActive) {
             img.src = "assets/star_empty.png";
-            localStorage.removeItem("newQuotes");
+            localStorage.removeItem(author);
         }
         else {
             img.src = "assets/star.png";
-            localStorage.setItem("newQuotes", quotes);
+            localStorage.setItem(author, textLocal);
         }
         img.classList.toggle("active");
     })
@@ -26,4 +27,4 @@ for (const author in quotes) {
     box.appendChild(quoteAuthor);
     box.appendChild(img);
     board.appendChild(box);
-    } 
+    }
