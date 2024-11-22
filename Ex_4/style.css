@@ -7,23 +7,32 @@
     display: flex;
     flex-wrap: wrap;
 }
-p {
+.p {
+    font-family: arial;
     text-align: center;
     color: white;
 }
-ColorFacebook {
+.colorFacebook {
     background-color: #576ea5;
 }
-colorTwitter {
+.colorTwitter {
     background-color: #00b2ef;
 }
-colorInstagram {
+.colorInstagram {
     background-color: #f00073;
 }
 .box {
     margin: 0.5em;
     width: 200px;
     height: 200px;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+.boxClicked {
+    margin: 0.5em;
+    width: 200px;
+    height: 250px;
     text-align: center;
     vertical-align: bottom;
     overflow: hidden;

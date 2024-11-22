@@ -15,4 +15,3 @@ box.addEventListener("click", function() { // listener on click
     }
     alert("Class name: " + nameClass + "\n" + classContent);
 })
-

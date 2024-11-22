@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+}
+
+#board {
+    width: 800px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
